@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/nombre_completo" />
+
+    <DatePicker    android:id="@+id/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"    />
+
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:inputType="number"
+        android:hint="@string/telefono" />
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:inputType="textEmailAddress"
+        android:hint="@string/mail" />
+
+    <EditText
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+
+        android:hint="@string/descripcion" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text="@string/siguiente"
+        android:onClick="Click"
+        />
+
+</LinearLayout>

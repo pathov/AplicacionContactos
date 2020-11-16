@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/confirmar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/confirmar"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/eti_nombres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_completo" />
+
+        <TextView
+            android:id="@+id/Enombres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/eti_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fecha" />
+
+        <TextView
+            android:id="@+id/Efecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/eti_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono" />
+
+        <TextView
+            android:id="@+id/Etel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/eti_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mail" />
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/eti_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion" />
+
+        <TextView
+            android:id="@+id/Edes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+           />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editar"
+        android:onClick="ClickEdi"
+        />
+</LinearLayout>
